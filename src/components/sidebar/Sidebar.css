@@ -1,0 +1,59 @@
+/* Sidebar.css */
+.sidebar {
+  background-image: url('/images/bg-sidebar-desktop.svg');
+  width: 30%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 10px;
+  margin: 16px;
+  
+}
+
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.step-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.step.active .step-circle {
+  background-color: #bfe2fd;
+  color: black;
+  border: none;
+}
+
+.step-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.step-text span:first-child {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.step-text span:last-child {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}

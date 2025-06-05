@@ -1,0 +1,56 @@
+/* StepContainer.css */
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 50px;
+
+}
+
+.form {
+  width: 70%;
+  padding: 40px;
+}
+
+.form h2 {
+  color: #022959;
+  margin-top: 0;
+}
+
+.form p {
+  color: #9699AA;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #022959;
+}
+
+input {
+  width: 85%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.next-btn {
+  background-color: #022959;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 350px;
+  bottom: 80px;
+}
