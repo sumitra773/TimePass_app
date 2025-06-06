@@ -2,8 +2,8 @@ import React, { useState } from "react";
 // Future steps: import Step2, Step3, etc.
 
 import "./StepContainer.css";
-import Sidebar from "../Sidebar/Sidebar";
-import Step1 from "../Step1";
+import Sidebar from "../sidebar/Sidebar";
+import Step1 from "../step1/Step1";
 import SelectPlan from "../selectplan/SelectPlan";
 import Step3 from "../step3/Step3";
 import Step4 from "../step4/Step4";
@@ -63,6 +63,7 @@ export default function StepContainer() {
           billing={billing}
           selectedAddOns={selectedAddOns}
           onBack={handleBack}
+          setStep={setStep}
           
         />
       )}

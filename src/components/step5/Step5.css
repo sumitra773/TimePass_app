@@ -1,8 +1,10 @@
 .step5-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  width: 100vh;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .thank-you-box {

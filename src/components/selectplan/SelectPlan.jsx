@@ -38,6 +38,14 @@ export default function SelectPlan({
     setBilling((prev) => (prev === "Yearly" ? "Monthly" : "Yearly"));
   };
 
+  const handleNext = () => {
+    if (!selectedPlan.name) {
+      alert("Please select a plan before proceeding.");
+      return;
+    }
+    onNext();
+  };
+
   return (
     <div className="step2-container">
       <main className="main-content">
@@ -83,7 +91,7 @@ export default function SelectPlan({
           <button className="back" onClick={onBack}>
             Go Back
           </button>
-          <button className="next" onClick={onNext}>
+          <button className="next" onClick={handleNext}>
             Next Step
           </button>
         </div>

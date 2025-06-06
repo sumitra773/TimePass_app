@@ -57,3 +57,47 @@
   font-size: 12px;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-image: url('/images/bg-sidebar-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0;
+  }
+
+  .step {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .step-text {
+    display: none; /* Hide text labels on mobile to save space */
+  }
+
+  .step-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step.active .step-circle {
+    background-color: #bfe2fd;
+    color: black;
+    border: none;
+  }
+}
+
