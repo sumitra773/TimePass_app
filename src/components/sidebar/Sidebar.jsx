@@ -10,6 +10,7 @@ export default function Sidebar({ currentStep }) {
         <div
           key={i}
           className={`step ${currentStep === i + 1 ? "active" : ""}`}
+          onClick={() =>setStep(i+1)}
         >
           <div className="step-circle">{i + 1}</div>
           <div className="step-text">

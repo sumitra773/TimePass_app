@@ -1,0 +1,150 @@
+
+/* .container {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 50px;
+
+} */
+ .step2-container {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  width: 100vh;
+  margin-left: 20px;
+} 
+/* .sidebar {
+  background: #483eff;
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 16px 0 0 16px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} */
+.step {
+  opacity: 0.7;
+  font-weight: 600;
+}
+.step.current {
+  background: #bfe2fd;
+  color: #483eff;
+  border-radius: 50%;
+  padding: 8px 16px;
+  opacity: 1;
+}
+.main-content {
+  flex: 1;
+  padding: 48px 40px;
+}
+.plans {
+  display: flex;
+  gap: 24px;
+  margin: 32px 0 24px 0;
+}
+.plan-card {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 24px 32px;
+  cursor: pointer;
+  text-align: center;
+  transition: border 0.2s;
+}
+.plan-card.selected {
+  border: 2px solid #483eff;
+  background: #f8f9fe;
+}
+.plan-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.free-months {
+  font-size: 12px;
+  color: #02295a;
+  margin-top: 5px;
+}
+
+.billing-toggle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+.billing-toggle .active {
+  color: #483eff;
+  font-weight: bold;
+}
+.billing-toggle span {
+  color: gray;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.billing-toggle span.active {
+  color: #021f42;
+  font-weight: 700;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+.switch input { display: none; }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; width: 16px;
+  left: 2px; bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #483eff;
+}
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.back {
+  background: none;
+  color: #483eff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;  
+  position: absolute;
+  bottom: 80px;
+}
+.next {
+  background: #02295a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 350px;
+  bottom: 80px;
+}

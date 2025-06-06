@@ -1,0 +1,48 @@
+.step4-container {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.summary-box {
+  background-color: #f0f6ff;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+}
+
+.summary-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-plan button {
+  background: none;
+  color: blue;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.summary-addon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+}
+
+.total-amount {
+  color: #483EFF;
+  font-size: 1.2rem;
+}

@@ -30,7 +30,7 @@ export default function Step1({ formData, setFormData, onNext }) {
       <label>Phone Number</label>
       <input name="phone" value={formData.phone} onChange={handleChange} placeholder="e.g. +1 234 567 890" />
 
-      <button className="next-btn" type="submit">Next Step</button>
+      <button className="next-btn"onClick={onNext} type="submit">Next Step</button>
     </form>
   );
 }

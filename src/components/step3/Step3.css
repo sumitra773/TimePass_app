@@ -1,0 +1,112 @@
+.step3-container {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  width: 100vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  color: #02295a;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.addons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.addon-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #d6d9e6;
+  border-radius: 10px;
+  gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.addon-card:hover {
+  border-color: #483eff;
+  background-color: #f0f5ff;
+}
+
+.addon-card.selected {
+  border-color: #483eff;
+  background-color: #f0f5ff;
+}
+
+.addon-card input[type="checkbox"] {
+    margin: 0;
+  width: 18px;
+  height: 18px;
+  accent-color: #483eff;
+  /* flex-shrink: 0;
+  align-self: center; */
+}
+
+.addon-info {
+  flex: 1;
+  padding-top: 16px;
+}
+
+.addon-info strong {
+  font-size: 16px;
+  color: #02295a;
+}
+
+.addon-info p {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.addon-price {
+  font-weight: bold;
+  color: #483eff;
+  font-size: 14px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.back {
+  background: none;
+  color: #483eff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;  
+  position: absolute;
+  bottom: 80px;
+}
+.next {
+  background: #02295a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 300px;
+  bottom: 70px;
+}
