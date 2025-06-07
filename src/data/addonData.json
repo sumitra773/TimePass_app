@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Online service",
+    "id":"online-service",
+    "checked": false,
+    "desc": "Access to multiplayer games",
+    "yearlyPrice": "+10$/yr",
+    "monthlyPrice": "+1/mo",
+    "intPriceYr": 10,
+    "intPriceMo": 1
+  },
+  {
+    "name": "Larger Storage",
+    "id": "larger-storage",
+    "checked": false,
+    "desc": "Extra 1tb of cloud save",
+    "yearlyPrice": "+20$/yr",
+    "monthlyPrice": "+2/mo",
+    "intPriceYr": 20,
+    "intPriceMo": 2 
+  },
+  {
+    "name": "Customizable Profile",
+    "id": "custom",
+    "checked": false,
+    "desc": "Custom theme on your profile",
+    "yearlyPrice": "+20$/yr",
+    "monthlyPrice": "+2/mo",
+    "intPriceYr": 20,
+    "intPriceMo": 2 
+  }
+]

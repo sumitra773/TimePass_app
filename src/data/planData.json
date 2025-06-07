@@ -1,0 +1,30 @@
+[
+    {
+      "name": "arcade",
+      "image": "/assets/images/icon-arcade.svg",
+      "checked": false,
+      "monthlyPrice": "$9/mo",
+      "yearlyPrice": "$90yr",
+      "intPriceYr": 90,
+      "intPriceMo": 9 
+    },
+    {
+      "name": "advanced",
+      "image": "/assets/images/icon-advanced.svg",
+      "checked": false,
+      "monthlyPrice": "$12/mo",
+      "yearlyPrice": "$120yr",
+      "intPriceYr": 120,
+      "intPriceMo": 12 
+    },
+    {
+      "name": "pro",
+      "checked": false,
+      "image": "/assets/images/icon-pro.svg",
+      "monthlyPrice": "$15/mo",
+      "yearlyPrice": "$150yr",
+      "intPriceYr": 150,
+      "intPriceMo": 15 
+
+    }
+  ]
