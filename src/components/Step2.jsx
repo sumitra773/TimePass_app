@@ -12,7 +12,6 @@ const Radio = ({
 }) => {
   //console.log(plan, "planinside");
   //console.log(image);
-  const baseUrl = "/multistep-form/";
   const capitalize = (name) => {
     return name.charAt(0).toUpperCase() + name.slice(1);
   };
@@ -25,7 +24,7 @@ const Radio = ({
         } block p-4 border w-full rounded-lg my-2 lg:w-[160px] lg:py-4 lg:flex-grow`}
       >
         <div className="flex gap-2 lg:flex-col lg:justify-start lg:px-1 lg:gap-10">
-          <img src={baseUrl + image} className="max-w-[40px]" />
+          <img src={image} className="max-w-[40px]" />
           <div className="flex flex-col">
             <span className="font-semibold text-denim">{capitalize(name)}</span>
             <span className="text-sm text-grey">

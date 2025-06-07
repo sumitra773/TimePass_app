@@ -38,11 +38,11 @@ https://drive.google.com/file/d/1aqQd_0696mQnt2uCPJWHnYEqM3PFxT4O/view?usp=drive
 
 ## Screenshots
 
-public\assets\screenshot\Screenshot 2025-06-07 135438.png
-public\assets\screenshot\Screenshot 2025-06-07 135502.png
-public\assets\screenshot\Screenshot 2025-06-07 135518.png
-public\assets\screenshot\Screenshot 2025-06-07 135531.png
-public\assets\screenshot\Screenshot 2025-06-07 135548.png
+..\assets\screenshot\Screenshot 2025-06-07 135438.png
+..\assets\screenshot\Screenshot 2025-06-07 135502.png
+..\assets\screenshot\Screenshot 2025-06-07 135518.png
+..\assets\screenshot\Screenshot 2025-06-07 135531.png
+..\assets\screenshot\Screenshot 2025-06-07 135548.png
 ---
 
 ## Getting Started
