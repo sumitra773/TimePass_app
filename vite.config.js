@@ -1,8 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/multistep-form",
+  base: '/multistep-form/', // 👈 important if your Render URL is https://.../multistep-form
   plugins: [react()],
-});
+})
